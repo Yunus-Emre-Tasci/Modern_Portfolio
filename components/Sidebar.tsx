@@ -14,8 +14,8 @@ const Sidebar = () => {
         height={100}
         className="mx-auto rounded-full"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider">
-        <span>Yunus Emre</span> Taşçı
+      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
+        <span className="text-orange">Yunus Emre</span> Taşçı
       </h3>
 
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
@@ -27,7 +27,7 @@ const Sidebar = () => {
         {" "}
         <GiTie className="w-6 h-6" /> Download Resume
       </a>
-      <div className="flex justify-around w-3/4 mx-auto my-5 text-orange-500 md:w-full">
+      <div className="flex justify-around w-3/4 mx-auto my-5 text-orange md:w-full">
         <a href="">
           <AiFillYoutube className="w-8 h-8" />
         </a>
@@ -46,8 +46,8 @@ const Sidebar = () => {
         <p className="my-2">yunusemretasci092@gmail.com</p>
         <p className="my-2">0535 104 58 85</p>
       </div>
-      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-orange-400 to-blue-400">Email</button>
-      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-orange-400 to-blue-400">Toggle Theme</button>
+      <button className="w-3/4 px-5 py-2 text-white rounded-full bg-gradient-to-r from-orange to-blue-400">Email Me</button>
+      <button className="w-3/4 px-5 py-2 my-4 text-white rounded-full bg-gradient-to-r from-orange to-blue-400">Toggle Theme</button>
     </div>
   );
 }
