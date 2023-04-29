@@ -11,7 +11,7 @@ const index = () => {
         ipsa aut voluptates perspiciatis.
       </h5>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 mx-[-1.5rem]">
-        <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
+        <h6 className="my-3 text-xl font-bold tracking-wide">What I am doing</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map((service) => (
             <div
