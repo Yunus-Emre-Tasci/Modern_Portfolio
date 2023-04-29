@@ -3,8 +3,16 @@ import Profile from "../public/images/PROFİLE.jpg";
 import {AiFillGithub,AiFillLinkedin,AiFillYoutube} from "react-icons/ai";
 import {GiTie} from "react-icons/gi";
 import {GoLocation} from "react-icons/go";
+import { useTheme } from "next-themes";
 
 const Sidebar = () => {
+  
+  const { theme, setTheme } = useTheme();
+
+  const changeTheme=()=>{
+    setTheme(theme==="light"?"dark":"light")
+  }
+
   return (
     <div>
       <Image
@@ -52,7 +60,10 @@ const Sidebar = () => {
       >
         Email Me
       </button>
-      <button className="w-3/4 px-5 py-2 my-4 text-white rounded-full bg-gradient-to-r from-orange to-blue-400">
+      <button
+        className="w-3/4 px-5 py-2 my-4 text-white rounded-full bg-gradient-to-r from-orange to-blue-400"
+        onClick={changeTheme}
+      >
         Toggle Theme
       </button>
     </div>
