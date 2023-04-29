@@ -4,17 +4,22 @@ import ServiceCard from "@/components/ServiceCarddeneme2";
 
 const index = () => {
   return (
-    <div className="flex flex-col px-6 pt-1">
+    <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
         provident quaerat repudiandae reprehenderit officiis voluptatum natus
         ipsa aut voluptates perspiciatis.
       </h5>
-      <div className="p-4 mt-5 bg-gray-400">
-        <h6>What I Offer</h6>
-        <div className="grid ">
+      <div className="flex-grow p-4 mt-5 bg-gray-400 mx-[-1.5rem]">
+        <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
+        <div className="grid gap-6 lg:grid-cols-2">
           {services.map((service) => (
-            <ServiceCard key={service.id} service={service} />
+            <div
+              key={service.id}
+              className="bg-gray-200 rounded-lg lg:col-span-1"
+            >
+              <ServiceCard service={service} />
+            </div>
           ))}
         </div>
       </div>
