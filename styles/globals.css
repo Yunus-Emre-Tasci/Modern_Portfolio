@@ -4,6 +4,15 @@
 
 
 body{
-  background-color: black;
+  color: #354358;
   font-family: sans-serif;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to right bottom,#f97316,#057e60);
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 0px;
 }
