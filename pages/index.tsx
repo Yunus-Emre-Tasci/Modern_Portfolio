@@ -2,11 +2,12 @@ import React from "react";
 import { services } from "@/datadeneme2";
 import ServiceCard from "@/components/ServiceCarddeneme2";
 import {motion} from "framer-motion"
-import { fadeinup, stagger } from "@/animationsdeneme2";
+import { fadeinup, routeAnimation, stagger } from "@/animationsdeneme2";
+import { NextPage } from "next";
 
-const index = () => {
+const About:NextPage = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
         provident quaerat repudiandae reprehenderit officiis voluptatum natus
@@ -33,8 +34,8 @@ const index = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default index;
+export default About;

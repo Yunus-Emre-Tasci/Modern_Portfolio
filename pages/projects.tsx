@@ -4,7 +4,7 @@ import ProjectsNavbar from "../components/ProjectsNavbar";
 import { projects as projectsData } from "../data";
 import { Category } from "../types";
 import {motion} from "framer-motion"
-import { fadeinup, stagger } from "@/animationsdeneme2";
+import { fadeinup, routeAnimation, stagger } from "@/animationsdeneme2";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -25,7 +25,14 @@ const Projects = () => {
   };
 
   return (
-    <div className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
+    <motion.div
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      className="px-5 py-2 overflow-y-scroll"
+      style={{ height: "65vh" }}
+    >
       <h2>Navbar</h2>
       <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}
@@ -48,7 +55,7 @@ const Projects = () => {
           </motion.div>
         ))}
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 

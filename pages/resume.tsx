@@ -1,4 +1,4 @@
-import { fadeinup } from "@/animationsdeneme2";
+import { fadeinup, routeAnimation } from "@/animationsdeneme2";
 import Bar from "../components/Bar";
 import { languages, tools } from "../data";
 import {motion} from "framer-motion"
@@ -6,7 +6,13 @@ import {motion} from "framer-motion"
 const Resume = () => {
     
   return (
-    <div className="px-6 py-2">
+    <motion.div
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      className="px-6 py-2"
+    >
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeinup} animate="animate" initial="initial">
@@ -52,7 +58,7 @@ const Resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
