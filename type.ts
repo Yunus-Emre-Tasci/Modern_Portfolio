@@ -20,6 +20,9 @@ export interface IProject {
   github_url: string;
   category: Category[];
   key_techs: string[];
+  id: number | null;
+//   showDetail: number | null;
+//   setShowDetail: (id:number | null)=>void,
 }
 
 export type Category = "react" | "node" | "express" | "django" | "mongo";
