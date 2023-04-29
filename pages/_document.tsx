@@ -10,7 +10,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className='h-full bg-gradient-to-r from-orange to-blue-400'>
+      <body className='h-full bg-gradient-to-r from-orange to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white'>
         <Main />
         <NextScript />
       </body>

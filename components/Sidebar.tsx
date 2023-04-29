@@ -26,9 +26,11 @@ const Sidebar = () => {
         <span className="text-orange">Yunus Emre</span> Taşçı
       </h3>
 
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300">
+        Web Developer
+      </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
         href=""
         download="name"
       >
@@ -46,7 +48,7 @@ const Sidebar = () => {
           <AiFillLinkedin className="w-8 h-8" />
         </a>
       </div>
-      <div className="py-4 my-5 bg-gray-200 mx-[-1rem]">
+      <div className="py-4 my-5 bg-gray-200 dark:bg-dark-300 mx-[-1rem]">
         <div className="flex items-center justify-center space-x-2">
           <GoLocation />
           <span>Turkey</span>
