@@ -52,28 +52,28 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "Type Script",
     level: "60%",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
+    name: "Java Script",
     level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "70%",
   },
   {
     Icon: BsCircleFill,
     name: "Django",
+    level: "70%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React",
     level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80%",
+    name: "Tailwind",
+    level: "75%",
   },
 ];
 
@@ -81,7 +81,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
-    level: "85%",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
@@ -96,7 +96,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Framer",
-    level: "45%",
+    level: "50%",
   },
 ];
 

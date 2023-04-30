@@ -21,7 +21,7 @@ const ProjectsNavbar: FunctionComponent<{
   active: string;
 }> = (props) => {
   return (
-    <div className="flex px-3 pt-3 pb-1 space-x-3 overflow-x-auto tracking-wide list-none mt-7 ms-3">
+    <div className="flex px-3 pt-3 pb-1 space-x-3 overflow-x-auto tracking-wide list-none border-b-2 shadow mt-7 ms-3">
       <NavItem category="all" {...props} />
       <NavItem category="react" {...props} />
       <NavItem category="mongo" {...props} />
