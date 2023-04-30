@@ -26,11 +26,11 @@ const Sidebar = () => {
         <span className="text-orange">Yunus Emre</span> Taşçı
       </h3>
 
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300">
+      <p className="px-2 py-1 my-3 font-semibold bg-gray-200 rounded-full dark:bg-dark-300 font-montserrat">
         Fullstack Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
+        className="flex items-center justify-center px-2 py-1 my-3 font-semibold bg-gray-200 rounded-full dark:bg-dark-300 font-montserrat"
         href="/assets/Yunus Emre Taşçı Resume.pdf"
         download="Yunus Emre Taşçı Resume.pdf"
       >
@@ -49,21 +49,21 @@ const Sidebar = () => {
         </a>
       </div>
       <div className="py-4 my-5 bg-gray-200 dark:bg-dark-300 mx-[-1rem]">
-        <div className="flex items-center justify-center space-x-2">
+        <div className="flex items-center justify-center space-x-2 font-semibold font-montserrat">
           <GoLocation />
           <span>Turkey</span>
         </div>
         <p className="my-2 text-[0.9rem]">yunusemretasci092@gmail.com</p>
-        <p className="my-2">0(535) 104 58 85</p>
+        <p className="my-2 font-semibold font-montserrat">0(535) 104 58 85</p>
       </div>
       <button
-        className="w-3/4 px-5 py-2 text-white rounded-full bg-gradient-to-r from-orange to-blue-400 focus:outline-none"
+        className="w-3/4 px-5 py-2 font-semibold text-white rounded-full dark:text-dark-300 bg-gradient-to-r from-orange to-blue-400 focus:outline-none"
         onClick={() => window.open("mailto:yunusemretasci092@gmail.com")}
       >
         Email Me
       </button>
       <button
-        className="w-3/4 px-5 py-2 my-4 text-white rounded-full bg-gradient-to-r from-orange to-blue-400"
+        className="w-3/4 px-5 py-2 my-4 font-semibold text-white rounded-full dark:text-dark-300 bg-gradient-to-r from-orange to-blue-400"
         onClick={changeTheme}
       >
         Theme

@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     fontFamily: {
       kaushan: ['Kaushan Script',],
+      montserrat: ['Montserrat',],
+      
     },
     boxShadow: {
       "custom-light": " 0 0 10px #313131",
