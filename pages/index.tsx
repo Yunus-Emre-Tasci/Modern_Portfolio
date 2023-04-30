@@ -5,9 +5,16 @@ import {motion} from "framer-motion"
 import { fadeinup, routeAnimation, stagger } from "@/animationsdeneme2";
 import { NextPage } from "next";
 
+import Head from "next/head"
+
 const About:NextPage = () => {
   return (
     <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="flex flex-col flex-grow px-6 pt-1">
+      <Head>
+        <title>
+          About | Yunus Emre Taşçı
+        </title>
+      </Head>
       <h5 className="my-3 font-medium">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
         provident quaerat repudiandae reprehenderit officiis voluptatum natus
