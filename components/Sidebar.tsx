@@ -40,13 +40,13 @@ const Sidebar = () => {
         <GiTie className="w-6 h-6" /> Download Resume
       </a>
       <div className="flex justify-around w-3/4 mx-auto my-5 text-orange md:w-full">
-        <a href="">
+        <a href="" aria-label="Youtube">
           <AiFillYoutube className="w-8 h-8" />
         </a>
-        <a href="">
+        <a href="" aria-label="Github">
           <AiFillGithub className="w-8 h-8" />
         </a>
-        <a href="">
+        <a href="" aria-label="Linkedin">
           <AiFillLinkedin className="w-8 h-8" />
         </a>
       </div>
