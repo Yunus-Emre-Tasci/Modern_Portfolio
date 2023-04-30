@@ -9,8 +9,16 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
           rel="stylesheet"
         />
+        <meta
+          name="description"
+          content="MERN stack developer looking for a job"
+        />
+        <meta
+          name="keywords"
+          content="Full Stack Web Developer , Freelancer , MERN Developer"
+        />
       </Head>
-      <body className='h-full bg-gradient-to-r from-orange to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white'>
+      <body className="h-full bg-gradient-to-r from-orange to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />
         <NextScript />
       </body>
