@@ -19,7 +19,7 @@ const About:NextPage = () => {
       <Head>
         <title>About | Yunus Emre Taşçı</title>
       </Head>
-      <h5 className="my-3 font-medium">
+      <h5 className="my-3 font-semibold">
         As a Full Stack Developer and IT enthusiast, I do projects on React,
         JavaScript, Next.js, Vue, Nuxt.js and Django in accordance with my
         teammates to produce the best output, which gives me great joy!
