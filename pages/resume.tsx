@@ -20,7 +20,7 @@ const Resume = () => {
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeinup} animate="animate" initial="initial">
-          <h5 className="my-3 text-2xl font-bold">Education</h5>
+          <h5 className="my-3 text-2xl font-bold border-b-2">Education</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">
               Computer Science Engineering
@@ -33,7 +33,7 @@ const Resume = () => {
           </div>
         </motion.div>
         <motion.div variants={fadeinup} animate="animate" initial="initial">
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <h5 className="my-3 text-2xl font-bold border-b-2">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
             <p className="font-semibold">Tata Consultancy Services</p>
@@ -45,7 +45,9 @@ const Resume = () => {
       {/*Languages & Tools */}
       <div className="grid gap-9 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
+          <h5 className="my-3 text-2xl font-bold border-b-2">
+            Language & Framework
+          </h5>
           <div className="my-2">
             {languages.map((language, i) => (
               <Bar value={language} key={i} />
@@ -54,7 +56,9 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
+          <h5 className="my-3 text-2xl font-bold border-b-2">
+            Tools & Softwares
+          </h5>
           <div className="my-2">
             {tools.map((tool, i) => (
               <Bar value={tool} key={i} />

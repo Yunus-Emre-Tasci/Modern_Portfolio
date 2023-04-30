@@ -19,12 +19,12 @@ const About:NextPage = () => {
       <Head>
         <title>About | Yunus Emre Taşçı</title>
       </Head>
-      <h5 className="my-3 font-semibold">
+      <h5 className="my-3 font-semibold tracking-wide">
         As a Full Stack Developer and IT enthusiast, I do projects on React,
         JavaScript, Next.js, Vue, Nuxt.js and Django in accordance with my
         teammates to produce the best output, which gives me great joy!
       </h5>
-      <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 mx-[-1.5rem]">
+      <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 mx-[-1.5rem] rounded-s-xl rounded-e-xl">
         <h6 className="my-3 text-xl font-bold tracking-wide">
           What I am doing
         </h6>

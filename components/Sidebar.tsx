@@ -38,22 +38,36 @@ const Sidebar = () => {
         <GiTie className="w-6 h-6" /> Download Resume
       </a>
       <div className="flex justify-around w-3/4 mx-auto my-5 text-orange md:w-full">
-        <a href="" aria-label="Github">
+        <a
+          href="https://github.com/Yunus-Emre-Tasci"
+          aria-label="Github"
+          target="_blank"
+        >
           <AiFillGithub className="w-8 h-8" />
         </a>
-        <a href="" aria-label="Twitter">
+        <a
+          href="https://twitter.com/home?lang=tr"
+          aria-label="Twitter"
+          target="_blank"
+        >
           <AiFillTwitterCircle className="w-8 h-8" />
         </a>
-        <a href="" aria-label="Linkedin">
+        <a
+          href="https://www.linkedin.com/in/yunus-emre-tasci/"
+          aria-label="Linkedin"
+          target="_blank"
+        >
           <AiFillLinkedin className="w-8 h-8" />
         </a>
       </div>
-      <div className="py-4 my-5 bg-gray-200 dark:bg-dark-300 mx-[-1rem]">
+      <div className="py-4 my-5 bg-gray-200 dark:bg-dark-300 mx-[-1rem] rounded-xl">
         <div className="flex items-center justify-center space-x-2 font-semibold font-montserrat">
           <GoLocation />
           <span>Turkey</span>
         </div>
-        <p className="my-2 text-[0.9rem]">yunusemretasci092@gmail.com</p>
+        <p className="my-2 font-medium text-lg md:text-lg lg:text-[0.5rem] xl:text-[0.9rem]">
+          yunusemretasci092@gmail.com
+        </p>
         <p className="my-2 font-semibold font-montserrat">0(535) 104 58 85</p>
       </div>
       <button
