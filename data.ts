@@ -103,14 +103,14 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     id: 1,
-    name: "COVID Tracker",
+    name: "Stock App",
     description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+      "The project, which helps a user to follow the product flow, is not only an inventory tracking system, but also has a user panel feature",
+    image_path: "/images/stock-app.png",
+    deployed_url: "https://stock-app-roan.vercel.app/",
+    github_url: "https://github.com/Yunus-Emre-Tasci/STOCK_APP",
+    category: ["react", "django"],
+    key_techs: ["React", "Redux", "Material UI", "Django", "Tremor"],
   },
   {
     id: 2,

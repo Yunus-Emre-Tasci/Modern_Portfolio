@@ -28,23 +28,25 @@ const ProjectCard: FunctionComponent<{
   // const [showDetail, setShowDetail] = useState(false);
 
   return (
-    <div>
-      <Image
-        src={image_path}
-        alt={name}
-        className="font-medium cursor-pointer"
-        onClick={() => setShowDetail(id)}
-        layout="responsive"
-        height="150"
-        width="300"
-      />
-      {/* <img
+    <div className="cursor-pointer">
+      <div onClick={() => setShowDetail(id)}>
+        <Image
+          src={image_path}
+          alt={name}
+          className="font-medium"
+          // onClick={() => setShowDetail(id)}
+          layout="responsive"
+          height="150"
+          width="300"
+        />
+        {/* <img
         src={image_path}
         alt={name}
         className="cursor-pointer"
         onClick={() => setShowDetail(true)}
       /> */}
-      <p className="my-2 font-[550] text-center">{name}</p>
+        <p className="my-2 font-[550] text-center">{name}</p>
+      </div>
 
       {showDetail === id && (
         <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
