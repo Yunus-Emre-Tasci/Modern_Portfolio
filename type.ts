@@ -1,4 +1,3 @@
-import { FunctionComponent } from "react";
 import { IconType } from "react-icons";
 export interface IService {
   Icon: IconType;
@@ -21,8 +20,6 @@ export interface IProject {
   category: Category[];
   key_techs: string[];
   id: number | null;
-//   showDetail: number | null;
-//   setShowDetail: (id:number | null)=>void,
 }
 
 export type Category = "react" | "node" | "express" | "django" | "mongo";
