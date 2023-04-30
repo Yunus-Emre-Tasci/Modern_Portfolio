@@ -34,7 +34,7 @@ const Projects = () => {
       animate="animate"
       exit="exit"
       className="px-5 py-2 overflow-y-scroll"
-      style={{ height: "65vh" }}
+      style={{ height: "70vh" }}
     >
       <Head>
         <title>Projects | Yunus Emre Taşçı</title>

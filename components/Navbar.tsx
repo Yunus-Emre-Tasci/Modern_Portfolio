@@ -11,11 +11,9 @@ const NavItem:React.FC<{
 }>=({active,setActive,name,route})=>{
     return active!==name?(
         <Link href={route}>
-        
             <span className='mx-2 hover:border-b-4 hover:text-orange' onClick={()=>setActive(name)}>
               {name}
             </span>
-        
         </Link>
     ):null
 }

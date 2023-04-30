@@ -18,8 +18,8 @@ const Sidebar = () => {
       <Image
         src={Profile}
         alt="profile"
-        width={100}
-        height={100}
+        width={120}
+        height={120}
         className="mx-auto rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
@@ -66,7 +66,8 @@ const Sidebar = () => {
         className="w-3/4 px-5 py-2 my-4 text-white rounded-full bg-gradient-to-r from-orange to-blue-400"
         onClick={changeTheme}
       >
-        {theme==="light"? "Dark UI" : "Light UI"}
+        Theme
+        {/* {theme==="light"? "Dark UI" : "Light UI"} */}
       </button>
     </div>
   );
