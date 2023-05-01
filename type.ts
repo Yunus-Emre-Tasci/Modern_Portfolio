@@ -22,4 +22,4 @@ export interface IProject {
   id: number | null;
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo";
+export type Category = "react" | "typescript" | "firebase" | "django";
