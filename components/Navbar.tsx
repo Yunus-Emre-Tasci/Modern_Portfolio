@@ -23,11 +23,11 @@ const Navbar = () => {
     const [active, setActive] = useState<string>("")
 
     useEffect(() => {
-      if(pathname==="/") setActive("About")
-      if(pathname==="/projects") setActive("Projects")
-      if(pathname==="/resume") setActive("Resume")
+      if (pathname === "/") setActive("About");
+      if (pathname === "/projects") setActive("Projects");
+      if (pathname === "/resume") setActive("Resume");
       if (pathname === "/certificates") setActive("Certificates");
-    }, [])
+    }, [pathname]);
     
 
   return (

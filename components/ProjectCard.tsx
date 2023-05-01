@@ -1,7 +1,7 @@
 import { FunctionComponent} from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import { IProject } from "../types";
+import { IProject } from "../type";
 import {motion} from "framer-motion"
 
 import Image from "next/image";
