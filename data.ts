@@ -39,7 +39,7 @@ export const services: IService[] = [
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
+    title: "Continuous Learning ",
     about:
       "Every day, I improve myself by practicing current trends in <b>IT</b> world",
   },

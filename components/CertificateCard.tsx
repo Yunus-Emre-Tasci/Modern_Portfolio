@@ -16,7 +16,7 @@ const CertificateCard: FunctionComponent<{
   setShowDetail,
 }) => {
   return (
-    <div className="cursor-pointer ">
+    <div className="cursor-pointer">
       <div onClick={() => setShowDetail(id)}>
         <Image
           src={image_path}
@@ -30,12 +30,12 @@ const CertificateCard: FunctionComponent<{
       </div>
 
       {showDetail === id && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg dark:text-white dark:bg-dark-100">
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg bg-opacity-0.5 lg:px-48 lg:py-20 dark:text-white dark:bg-dark-100">
           <motion.div
             variants={stagger}
             initial="initial"
             animate="animate"
-            className="border-4 border-gray-100"
+            // className="border-4 border-gray-100"
           >
             <motion.div variants={fadeinup}>
               <Image

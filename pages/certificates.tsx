@@ -16,7 +16,7 @@ const Certificates = () => {
       initial="initial"
       animate="animate"
       exit="exit"
-      style={{ height: "70vh" }}
+      style={{ height: "90vh" }}
       className='p-2 overflow-auto'
     >
       <Head>

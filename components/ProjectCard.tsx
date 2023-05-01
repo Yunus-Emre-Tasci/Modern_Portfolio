@@ -54,7 +54,7 @@ const ProjectCard: FunctionComponent<{
             variants={stagger}
             initial="initial"
             animate="animate"
-            className="border-4 border-gray-100"
+            className="border-2 border-gray-100"
           >
             {/* <img src={image_path} alt={name} /> */}
             <motion.div variants={fadeinup}>
@@ -73,14 +73,14 @@ const ProjectCard: FunctionComponent<{
               <a
                 href={github_url}
                 target="_blank"
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-300"
               >
                 <AiFillGithub /> <span>Github</span>
               </a>
               <a
                 href={deployed_url}
                 target="_blank"
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-300"
               >
                 <AiFillProject /> <span>Project</span>
               </a>
