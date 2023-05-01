@@ -26,11 +26,11 @@ const Sidebar = () => {
         <span className="text-orange">Yunus Emre</span> Taşçı
       </h3>
 
-      <p className="px-2 py-1 my-3 font-semibold bg-gray-200 rounded-full dark:bg-dark-300 font-montserrat">
+      <p className="px-2 py-1 my-3 font-semibold bg-gray-200 rounded-full dark:bg-dark-300 font-montserrat lg:text-sm">
         Fullstack Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 font-semibold bg-gray-200 rounded-full dark:bg-dark-300 font-montserrat"
+        className="flex items-center justify-center px-2 py-1 my-3 font-semibold bg-gray-200 rounded-full dark:bg-dark-300 font-montserrat lg:text-sm"
         href="/assets/Yunus Emre Taşçı Resume.pdf"
         download="Yunus Emre Taşçı Resume.pdf"
       >
