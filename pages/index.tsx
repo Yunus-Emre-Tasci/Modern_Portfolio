@@ -34,10 +34,10 @@ const About:NextPage = () => {
           initial="initial"
           animate="animate"
         >
-          {services.map((service) => (
+          {services.map((service,i) => (
             <motion.div
               variants={fadeinup}
-              key={service.id}
+              key={i}
               className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1 "
             >
               <ServiceCard service={service} />
