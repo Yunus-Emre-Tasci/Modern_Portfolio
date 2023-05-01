@@ -23,3 +23,10 @@ export interface IProject {
 }
 
 export type Category = "react" | "typescript" | "firebase" | "django";
+
+export interface ICertificates {
+  name: string;
+  image_path: string;
+  url: string;
+  id: number | null;
+}

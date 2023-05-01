@@ -2,11 +2,12 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { IProject, Service, Skill } from "./types";
+import { IProject, IService, ISkill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
+import { ICertificates } from "./type";
 
-export const services: Service[] = [
+export const services: IService[] = [
   {
     Icon: RiComputerLine,
     title: "Frontend Development",
@@ -44,7 +45,7 @@ export const services: Service[] = [
   },
 ];
 
-export const languages: Skill[] = [
+export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
@@ -77,7 +78,7 @@ export const languages: Skill[] = [
   },
 ];
 
-export const tools: Skill[] = [
+export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
@@ -217,5 +218,38 @@ export const projects: IProject[] = [
     description:
       "In this project, the data obtained by using the edamam API are displayed as menu lists, meal selection and calorie display.",
     key_techs: ["React", "Reacr-router-dom", "Axios", "Styled-component"],
+  },
+];
+
+export const certificates: ICertificates[] = [
+  {
+    id: 1,
+    name: "Frontend Developer",
+    image_path: "/certificates/frontend.png",
+    url: "https://c11n.clarusway.com/en/verify/33669291764546",
+  },
+  {
+    id: 2,
+    name: "Backend Developer",
+    image_path: "/certificates/backend.png",
+    url: "https://c11n.clarusway.com/en/verify/51960530068331",
+  },
+  {
+    id: 3,
+    name: "React",
+    image_path: "/certificates/react.png",
+    url: "https://c11n.clarusway.com/en/verify/12278927084681 ",
+  },
+  {
+    id: 4,
+    name: "JavaScript",
+    image_path: "/certificates/javascript.png",
+    url: "https://c11n.clarusway.com/en/verify/93460447764827 ",
+  },
+  {
+    id: 5,
+    name: "HTML & CSS",
+    image_path: "/certificates/html-css.png",
+    url: "https://c11n.clarusway.com/en/verify/04996128175604 ",
   },
 ];
