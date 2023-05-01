@@ -45,10 +45,6 @@ const Projects = () => {
         <Head>
           <title>Projects | Yunus Emre Taşçı</title>
         </Head>
-        {/* <ProjectsNavbar
-        handlerFilterCategory={handlerFilterCategory}
-        active={active}
-      /> */}
 
         <motion.div
           variants={stagger}
@@ -60,7 +56,7 @@ const Projects = () => {
             <motion.div
               variants={fadeinup}
               key={project.name}
-              className="p-2 mt-4 bg-gray-200 rounded-lg ol-span-12 sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+              className="p-2 mt-4 bg-gray-200 rounded-lg col-span-12 sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
             >
               <ProjectCard
                 project={project}

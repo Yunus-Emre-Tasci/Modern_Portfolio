@@ -9,13 +9,16 @@ const NavItem:React.FC<{
     name:string
     route:string
 }>=({active,setActive,name,route})=>{
-    return active!==name?(
-        <Link href={route}>
-            <span className='mx-2 font-bold hover:border-b-4 hover:text-orange' onClick={()=>setActive(name)}>
-              {name}
-            </span>
-        </Link>
-    ):null
+    return active !== name ? (
+      <Link href={route}>
+        <span
+          className="mx-2 font-bold hover:border-b-4 hover:text-orange xs:text-md"
+          onClick={() => setActive(name)}
+        >
+          {name}
+        </span>
+      </Link>
+    ) : null;
 }
 
 const Navbar = () => {
@@ -32,7 +35,7 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between px-5 py-3 my-3">
-      <span className="text-xl font-bold border-b-4 border-orange md:text-2xl">
+      <span className="text-xl xs:text-lg font-bold border-b-4 border-orange md:text-2xl">
         {active}
       </span>
       <div>
